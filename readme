@@ -1,0 +1,5 @@
+This is a simple addon to help working with the Gnu Scientific Library in OF.
+
+Right now, there's nothing much to it: the headers and a 32 bit compiled static library. I want to make some simple translation functions to swap ofVec2f, ofVec3f, ofMat4x4 and ofMat3x3, but at the moment, it's just what it is.
+
+You need to add the include file to your header search paths, i.e. ../../../addons/ofxGSL/include to compile, but other than that it's good to go.
