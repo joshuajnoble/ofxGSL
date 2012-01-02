@@ -12,6 +12,9 @@
 #include "ofMain.h"
 #include <gsl_matrix.h>
 
+#define REAL(z,i) ((z)[2*(i)])
+#define IMAG(z,i) ((z)[2*(i)+1])
+
 class ofxGSL {
 
 template <typename T>
